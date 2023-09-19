@@ -89,8 +89,7 @@ export function handleLostStroller(state, { members }) {
   return handleLoseMagic(state, members, -1, 'A cast member moved your stoller far away');
 }
 
-// const walkingIncidents = [downpour, droppedIceCream, dysneyterry, lostStroller];
-const walkingIncidents = [dysneyterry];
+const walkingIncidents = [downpour, droppedIceCream, dysneyterry, lostStroller];
 
 export function randomWalkingIncident(party) {
   const incident = walkingIncidents[Math.floor(Math.random() * walkingIncidents.length)];
