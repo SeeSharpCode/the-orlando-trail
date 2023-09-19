@@ -16,11 +16,7 @@ export default function SetupWizard({ setSetupComplete }) {
   // actions from the setup components
   const [occupation, setOccupation] = useState(occupations[0]);
 
-  const [party, setParty] = useState([
-    { name: 'Dad', age: 'Adult', magic: 10 },
-    { name: 'Dad', age: 'Adykt', magic: 10 },
-    { name: 'Nora', age: 'Child', magic: 10 },
-  ]);
+  const [party, setParty] = useState([]);
   const addPartyMember = member => setParty([...party, { ...member, magic: 10 }]);
 
   const [supplies, setSupplies] = useState({
@@ -30,7 +26,7 @@ export default function SetupWizard({ setSetupComplete }) {
     sanitizer: { name: 'Hand Sanitizer', unitPrice: 5 },
     tylenol: { name: 'Tylenol', unitPrice: 10 },
     toy: { name: 'Toy', unitPrice: 20 },
-    clothes: { name: 'Sets of Clothes', unitPrice: 30, quantity: 2 },
+    clothes: { name: 'Sets of Clothes', unitPrice: 30 },
     coolingFan: { name: 'Cooling Fan', unitPrice: 30 },
     batteryPack: { name: 'Battery Pack', unitPrice: 50 },
   });
