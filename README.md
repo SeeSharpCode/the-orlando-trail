@@ -4,6 +4,8 @@
 
 > It's like The Oregon Trail but in a theme park.
 
+[Play the game](https://github.com/SeeSharpCode/the-orlando-trail)
+
 After selecting your occupation, party members, and gift shop items, you and your party must complete activities throughout the park before succumbing to the Florida heat and other hazards. Maintain each party member's magic meter and keep the children happy!
 
 <img src="assets/dysneyterry.png" width="400">
