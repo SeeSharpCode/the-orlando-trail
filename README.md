@@ -6,7 +6,7 @@ The Orlando Trail is The Oregon Trail but in a theme park.
 
 After selecting your occupation, party members, and gift shop items, you and your party must complete activities throughout the park before succumbing to the Florida heat and other hazards. Maintain each party member's magic meter and keep the children happy!
 
-<img src="assets/dysneyterry.png" width="250">
+<img src="assets/dysneyterry.png" width="400">
 
 This game was made with React and custom CSS.
 
