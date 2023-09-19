@@ -16,3 +16,4 @@ This game was made with React and custom CSS.
 > - Occupation and travel conditions influence gameplay
 > - Wait scene for attractions
 > - Validation in setup screens
+> - Persistence
