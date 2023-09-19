@@ -48,7 +48,7 @@ export function handleBuyMickeyBalloon(state, { member }) {
     2,
     `You spend $${balloonPrice} on a balloon for ${member.name}`
   );
-  if (angryChildren) {
+  if (angryChildren.length > 0) {
     nextPartyState = handleLoseMagic(
       nextPartyState,
       angryChildren,
