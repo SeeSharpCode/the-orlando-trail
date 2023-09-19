@@ -56,9 +56,7 @@ export const DYSNEYTERRY = 'dysneyterry';
 
 export function dysneyterry(party) {
   const sickMember = party.findIndex(m => m.hasDysneyterry);
-  console.log(`sickMember: ${sickMember}`);
   const member = sickMember > -1 ? sickMember : selectRandomMember(party);
-  console.log(`member: ${member}`);
   return { type: DYSNEYTERRY, member };
 }
 
