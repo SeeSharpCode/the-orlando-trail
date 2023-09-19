@@ -1,0 +1,10 @@
+#walking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#walking img {
+  /* border: 5px ridge var(--ridge-color); */
+  border-radius: 10%;
+}

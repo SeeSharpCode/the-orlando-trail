@@ -1,0 +1,13 @@
+.app {
+  background-color: var(--game-background);
+  border: 10px ridge var(--ridge-color);
+  height: 80vh;
+  width: 80vw;
+  max-width: 1100px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0;
+}

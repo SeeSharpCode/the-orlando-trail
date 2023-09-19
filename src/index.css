@@ -1,0 +1,88 @@
+:root {
+  --primary: #209cee;
+  --success: #92cc41;
+  --error: #e76e55;
+  --background-color: rgb(0, 51, 153);
+  --game-background: rgb(255, 254, 205);
+  --ridge-color: #f3cc64;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 0.175rem solid #000;
+  cursor: pointer;
+}
+
+body,
+button,
+input,
+select {
+  font-family: 'Press Start 2P';
+  font-size: 14px;
+}
+
+button:disabled {
+  background-color: lightgray;
+  color: black;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #108de0;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: black;
+}
+
+.btn-secondary:hover {
+  background-color: whitesmoke;
+}
+
+input[type='text'],
+select {
+  background-color: var(--game-background);
+  padding: 6px;
+  border: 2px solid black;
+}
+
+.card-grid {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  width: max-content;
+}
+
+.success-text {
+  color: var(--primary);
+}
+
+.error-text {
+  color: var(--error);
+}

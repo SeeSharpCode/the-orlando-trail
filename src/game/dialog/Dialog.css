@@ -1,0 +1,14 @@
+#dialog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+img {
+    margin-top: 1rem;
+}
+
+#confirm-btn {
+    margin-top: 2rem;
+}

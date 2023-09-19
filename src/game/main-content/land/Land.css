@@ -1,0 +1,18 @@
+#options {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+#options button {
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.option {
+    display: block;
+}
+
+.option input {
+    margin-right: .5rem;
+}

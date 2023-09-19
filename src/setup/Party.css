@@ -1,0 +1,6 @@
+#add-member {
+  display: flex;
+  gap: .5rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
