@@ -1,3 +1,7 @@
+/*
+  Borrowed reset ideas from: https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
 :root {
   --primary: #209cee;
   --success: #92cc41;
@@ -7,29 +11,56 @@
   --ridge-color: #f3cc64;
 }
 
-html,
-body,
-#root {
-  height: 100%;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
   margin: 0;
-  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
 }
 
 body {
+  line-height: 1.5;
   background-color: var(--background-color);
 }
 
 #root {
   display: flex;
-  align-items: center;
   justify-content: center;
+  height: 100%;
 }
 
-button {
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
-  border: 0.175rem solid #000;
-  cursor: pointer;
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
 }
 
 body,
@@ -38,6 +69,13 @@ input,
 select {
   font-family: 'Press Start 2P';
   font-size: 14px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 0.175rem solid #000;
+  cursor: pointer;
 }
 
 button:disabled {

@@ -1,0 +1,10 @@
+#logs {
+  padding: 1rem;
+  overflow-y: auto;
+  width: 100%;
+}
+
+#logs p {
+  margin-bottom: 0.75rem;
+  font-size: 12px;
+}

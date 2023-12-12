@@ -1,13 +1,19 @@
-.app {
-  background-color: var(--game-background);
-  border: 10px ridge var(--ridge-color);
-  height: 80vh;
-  width: 80vw;
+#main-container {
+  width: 80%;
+  margin: 2rem 0;
   max-width: 1100px;
 }
 
-h1 {
-  font-size: 2rem;
+#main-container h1 {
+  margin-bottom: 2rem;
   text-align: center;
-  margin-bottom: 0;
+  color: white;
+}
+
+#app {
+  height: 90%;
+  overflow-y: auto;
+  background-color: var(--game-background);
+  box-shadow: 0.75rem 0 var(--ridge-color), -0.75rem 0 var(--ridge-color), 0 -0.75rem var(--ridge-color),
+    0 0.75rem var(--ridge-color);
 }
