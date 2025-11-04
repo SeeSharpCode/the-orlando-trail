@@ -1,0 +1,53 @@
+#occupation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 640px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  min-height: calc(100vh - 8rem);
+}
+
+.occupation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  align-items: center;
+}
+
+.occupation-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 0;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.occupation-option.selected {
+  border: none;
+  background: transparent;
+}
+
+.occupation-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.occupation-name {
+  font-weight: 600;
+}
+
+.occupation-description {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+

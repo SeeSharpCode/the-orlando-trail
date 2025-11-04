@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { LogType, useLogs } from '../../state';
+import { LogMessage, useLogs } from '../../state';
 import './Logs.css';
 
 export function Logs() {
@@ -14,19 +14,13 @@ export function Logs() {
 
   return (
     <div id="logs" ref={logRef}>
-      {logs.map((log, i: number) => {
+      {logs.map((log: LogMessage, i: number) => {
         return (
-          <p key={i} className={logClasses[log.type]} title={log.tooltip}>
-            {log.message}
+          <p key={i} title={log.hoverText}>
+            {log.text}
           </p>
         );
       })}
     </div>
   );
 }
-
-const logClasses: Record<LogType, string> = {
-  [LogType.Normal]: '',
-  [LogType.Bad]: 'error-text',
-  [LogType.Good]: 'success-text',
-};

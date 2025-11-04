@@ -2,6 +2,19 @@
   grid-column: 2;
   grid-row: 1;
   border-bottom: 0.4rem solid var(--ridge-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 9;
+  background-image: url("start.png");
+  background-size: cover;
+}
+
+#scene-container button {
+  background-color: var(--ridge-color);
+  width: 50%;
+  height: 20%;
+  margin-top: 1.25rem;
 }
 
 #scene-container img {
